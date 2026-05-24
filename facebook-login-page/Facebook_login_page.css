@@ -1,0 +1,118 @@
+.container{
+      width:95%;
+
+      border:1px solid black;
+      margin: 130px 0 0 30px;
+      display: flex;
+      flex-wrap: wrap;
+}
+.facebook{
+      width:50%;
+   
+      border:1px solid black;
+      float:left;
+}
+img{
+      margin:44px 0 0 -30px;
+      width: 324px;
+}
+h2{
+      margin-top: -12px;
+      font-family:arial;
+      font-weight: 200;
+      line-height: 28px;
+}
+.login_container{
+      width:49.5%;
+      height:348px;
+      border:1px solid black;
+      float:right;
+}
+.login_page{
+      width:400px;
+      height:346px;
+      border:1px solid black;
+      border-radius: 8px;
+      box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.16), 0px 16px 32px rgba(0, 0, 0, .1);
+      margin-left:62px;
+
+}
+form{
+      display: block;
+      margin: 3%;
+}
+.input{
+      padding: 10px 40px;
+      cursor: pointer;
+      
+}
+input{
+      
+      padding: 20px 60px 20px 10px;
+      border-radius: 6px;      
+      border: 1.5px solid rgba(150, 146, 146, 0.5);
+      
+}
+#div{
+      margin-top: 5px !important;
+}
+input[type=text]:focus,input[type=password]:focus{
+      
+      outline: 1px solid #0866ff;
+      opacity: 0.5;
+}
+#pla{
+     margin-top: 1px; 
+     
+}
+
+#plac::placeholder,#pla::placeholder{
+      
+      font-size: 17px;
+}
+input cursor{
+      padding-left: 10px;
+}
+#btn{
+      padding: 13px 155px;
+      margin:0px 0 0 20px;
+      border-radius:6px;
+      border:none;
+      color:white;
+      font-size: 19px;
+      font-weight: 600;
+      background-color: #0866ff;
+      margin-bottom:15px;
+}
+a{
+      color:#0866ff;
+      text-decoration: none;
+      font-family: Helvetica,Arial, sans-serif;
+      font-size: 14px;
+      margin-left: 10px;
+}
+hr{
+      margin-top: 20px;
+      width:360px;
+      color:#dadde1;
+      font-weight: 100;
+      margin-bottom: 40px;
+}
+#anc{
+      padding: 16px 16px;
+      background-color:#2b9217;
+      border-color: #2b9217;
+      color:white;
+      border-radius: 6px;
+      margin-top: 40px;
+      box-sizing: border-box;
+      margin-left: 106px;
+      font-size: 17px;
+      font-weight: 600;
+}
+p{
+      margin-left: 110px;
+      margin-top: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+}
